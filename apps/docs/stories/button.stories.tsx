@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "@ds-pro/ds/button";
 
 const meta: Meta<typeof Button> = {
+  title: "Components/Button",
   component: Button,
   argTypes: {
     type: {
@@ -20,15 +21,17 @@ type Story = StoryObj<typeof Button>;
  * See https://storybook.js.org/docs/react/api/csf
  * to learn how to use render functions.
  */
-export const Default: Story = {
+export const DefaultDefault: Story = {
+  name: "[Default] Default",
   args: {
-    children: "Default",
+    children: "Button",
   },
 };
 
-export const Hover: Story = {
+export const DefaultHover: Story = {
+  name: "[Default] Hover",
   args: {
-    children: "Hover",
+    children: "Button",
   },
   parameters: {
     pseudo: {
@@ -37,9 +40,10 @@ export const Hover: Story = {
   },
 };
 
-export const Focus: Story = {
+export const DefaultFocus: Story = {
+  name: "[Default] Focus",
   args: {
-    children: "Focus",
+    children: "Button",
   },
   parameters: {
     pseudo: {
@@ -48,9 +52,104 @@ export const Focus: Story = {
   },
 };
 
-export const Active: Story = {
+export const DefaultActive: Story = {
+  name: "[Default] Active",
   args: {
-    children: "Active",
+    children: "Button",
+  },
+  parameters: {
+    pseudo: {
+      active: true,
+    },
+  },
+};
+
+export const SmallDefault: Story = {
+  name: "[Small] Default",
+  args: {
+    children: "Button",
+    size: "sm",
+  },
+};
+
+export const SmallHover: Story = {
+  name: "[Small] Hover",
+  args: {
+    children: "Button",
+    size: "sm",
+  },
+  parameters: {
+    pseudo: {
+      hover: true,
+    },
+  },
+};
+
+export const SmallFocus: Story = {
+  name: "[Small] Focus",
+  args: {
+    children: "Button",
+    size: "sm",
+  },
+  parameters: {
+    pseudo: {
+      focusVisible: true,
+    },
+  },
+};
+
+export const SmallActive: Story = {
+  name: "[Small] Active",
+  args: {
+    children: "Button",
+    size: "sm",
+  },
+  parameters: {
+    pseudo: {
+      active: true,
+    },
+  },
+};
+
+export const LargeDefault: Story = {
+  name: "[Large] Default",
+  args: {
+    children: "Button",
+    size: "lg",
+  },
+};
+
+export const LargeHover: Story = {
+  name: "[Large] Hover",
+  args: {
+    children: "Button",
+    size: "lg",
+  },
+  parameters: {
+    pseudo: {
+      hover: true,
+    },
+  },
+};
+
+export const LargeFocus: Story = {
+  name: "[Large] Focus",
+  args: {
+    children: "Button",
+    size: "lg",
+  },
+  parameters: {
+    pseudo: {
+      focusVisible: true,
+    },
+  },
+};
+
+export const LargeActive: Story = {
+  name: "[Large] Active",
+  args: {
+    children: "Button",
+    size: "lg",
   },
   parameters: {
     pseudo: {

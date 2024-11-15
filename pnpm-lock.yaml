@@ -96,8 +96,8 @@ importers:
   packages/ui:
     dependencies:
       '@design-system-pro/ds-tokens':
-        specifier: ^1.2.0
-        version: 1.2.0
+        specifier: ^1.22.0
+        version: 1.22.0
       '@radix-ui/react-slot':
         specifier: ^1.1.0
         version: 1.1.0(@types/react@18.3.2)(react@18.3.1)
@@ -584,8 +584,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /@design-system-pro/ds-tokens@1.2.0:
-    resolution: {integrity: sha512-YsEBdIE3Lgx47yqPLypcmeYPwEOZ1LJaqS6lcm+3KNpIWAD3DbB9Cvtb0lqw5zdmuWL1I60rNtmcmZenjmj7eQ==, tarball: https://npm.pkg.github.com/download/@design-system-pro/ds-tokens/1.2.0/686c7479382fa32f5f427c968e4e033f4974ae85}
+  /@design-system-pro/ds-tokens@1.22.0:
+    resolution: {integrity: sha512-s/GxFjNZL8IjeC9n0tGyJH6kNDbyD0ByJyKLbAWoPxCBPaIDD0T3REJUb267JTufVhNaFCcrii2PU6g8XbmXNw==, tarball: https://npm.pkg.github.com/download/@design-system-pro/ds-tokens/1.22.0/78d81c7ede55b4247aa7f7e1eada7d0aab735662}
     dev: false
 
   /@esbuild/aix-ppc64@0.19.12:
