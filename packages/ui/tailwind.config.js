@@ -22,7 +22,7 @@ module.exports = {
     },
     borderRadius: {
       none: "var(--primitives-mode-1-radius-none)",
-      DEFAULT: "var(--primitives-mode-1-radius-base)",
+      DEFAULT: "var(--theme-mode-1-radius-default)",
       md: "var(--primitives-mode-1-radius-md)",
       lg: "var(--primitives-mode-1-radius-lg)",
       xl: "var(--primitives-mode-1-radius-xl)",
